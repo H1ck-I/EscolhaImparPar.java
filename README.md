@@ -1,18 +1,30 @@
-## Getting Started
+📘 Escolha Ímpar ou Par
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este programa em Java solicita dois números ao usuário e uma escolha entre "ímpar" ou "par".
+Em seguida, imprime todos os números entre o primeiro e o segundo, em ordem decrescente, filtrando conforme a escolha.
 
-## Folder Structure
+🚀 Funcionalidades
 
-The workspace contains two folders by default, where:
+Lê dois números inteiros informados pelo usuário.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Garante que o segundo número seja maior que o primeiro (com validação).
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Permite escolher entre listar números pares ou ímpares.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Exibe os números do intervalo em ordem decrescente.
 
-## Dependency Management
+📥 Entrada do Usuário
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Primeiro número
+
+Segundo número (deve ser maior que o primeiro)
+
+Escolha entre "par" ou "impar"
+
+📤 Saída
+
+O programa exibirá todos os números entre os dois valores informados, em ordem decrescente, mostrando apenas:
+
+Os pares → se o usuário digitou "par"
+
+Os ímpares → se o usuário digitou "impar"
